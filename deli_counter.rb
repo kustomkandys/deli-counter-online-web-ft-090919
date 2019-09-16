@@ -9,5 +9,9 @@ def line(array)
     puts "The line is currently:#{line_msg}"
  end
 end
-    
+
+katz_deli = []
+
+def take_a_number(katz_deli, string)
+  
     

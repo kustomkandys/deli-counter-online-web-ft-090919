@@ -24,5 +24,6 @@ def now_serving(array)
   elsif array.length += 1 
     puts "Currently serving #{array[0]}"
     array.shift
+  end
 end
     

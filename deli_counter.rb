@@ -21,7 +21,7 @@ end
 def now_serving(array)
   if array == []
     puts "There is nobody waiting to be served!"
-  elsif 
+  else
     puts "Currently serving #{array[0]}." 
     array.delete(array[0])
   end

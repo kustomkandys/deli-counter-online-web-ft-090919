@@ -14,8 +14,8 @@ katz_deli = []
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  place = katz_deli.find_index()
-  puts "Welcome #{name}. You are number #{index} in line."
+  place = katz_deli.find_index(name)
+  puts "Welcome #{name}. You are number #{place+1} in line."
 end
   
     
